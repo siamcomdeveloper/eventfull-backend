@@ -1,11 +1,8 @@
 package com.example.SpringReactMongoProject.Repo;
 
-import com.example.SpringReactMongoProject.Entity.Vendor;
 import com.example.SpringReactMongoProject.Entity.VendorDetail;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-
-import java.util.Optional;
 
 @Repository
 public interface VendorDetailRepo extends MongoRepository<VendorDetail, String> {

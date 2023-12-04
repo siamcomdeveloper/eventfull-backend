@@ -43,19 +43,6 @@ public class VendorController {
         return vendorServices.getVendorById(vendorId);
     }
 
-    /*@RequestMapping("/find/{firstname}")
-    private Iterable<Vendor> getVendor(@PathVariable(name="firstname")String firstName){
-        System.out.println("here!");
-        return vendorServices.getVendorByThePersonsFirstname(firstName);
-    }*/
-
-    /*@PostMapping(value = "/find")
-    private Iterable<Vendor> getVendor(@RequestBody Vendor vender){
-        System.out.println("here!");
-        System.out.println(vender);
-        return vendorServices.getVendorByThePersonsFirstname(vender.getFirstName());
-    }*/
-
     @PostMapping(value = "/getinfo")
     private Vendor getVendorByUserId(@RequestBody Vendor vender){
         System.out.println("here!");

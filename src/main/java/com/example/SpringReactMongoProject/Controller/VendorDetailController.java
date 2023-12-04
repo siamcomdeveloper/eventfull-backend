@@ -57,9 +57,4 @@ public class VendorDetailController {
     private Iterable<VendorDetail> getVendorDetailByLocation(@PathVariable(name="location")String location){
         return vendorDetailServices.getVendorDetailByLocation(location);
     }
-
-    //@RequestMapping(value = "/search-capacity/{capacity}")
-    //private Iterable<VendorDetail> getVendorDetailByCapacity(@PathVariable(name="capacity")String capacity){
-    //    return vendorDetailServices.getVendorDetailByCapacity(capacity);
-    //}
 }

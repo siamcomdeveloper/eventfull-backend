@@ -26,7 +26,4 @@ public class VendorDetailServices {
     public Iterable<VendorDetail> getVendorDetailByCategory(String catetory) { return repo.getVendorDetailByCategory(catetory); }
 
     public Iterable<VendorDetail> getVendorDetailByLocation(String location) { return repo.getVendorDetailByLocation(location); }
-
-    //public Iterable<VendorDetail> getVendorDetailByCapacity(String capacity) { return repo.getVendorDetailByCapacity(capacity); }
-
 }
